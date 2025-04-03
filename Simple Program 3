@@ -1,0 +1,20 @@
+#include <iostream> 
+using namespace std;
+
+int main() {
+double distance, time, speed;
+
+// Input distance and time from user
+cout << "Enter Distance (in kilometers): "; 
+cin >> distance;
+cout << "Enter Time (in hours): ";
+cin >> time;
+
+// Calculate speed
+speed = distance / time;
+
+// Display the speed
+cout << "The speed is: " << speed << " km/h" << endl;
+
+return 0;
+}
