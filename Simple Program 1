@@ -1,0 +1,17 @@
+#include <iostream> 
+using namespace std;
+
+
+int main ()
+{
+
+double grams, pounds;
+
+cout << "Enter weight in grams: ";
+cin >> grams;
+
+pounds = grams * 0.00220462262185;
+
+cout << grams << " equivalent of grams are: " << pounds << " pounds by." <<endl;
+
+}
