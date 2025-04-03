@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() { 
+double diameter, radius, area; 
+
+cout << "Enter the given diameter of the circle: ";
+cin >> diameter;
+
+radius = diameter / 2.0;
+
+area = 3.14120* radius * radius;
+cout << "The given area of the circle is: " << area << endl;
+return 0;
+
+}
